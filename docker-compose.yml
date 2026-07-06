@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  crypto_etl_app:
+    build: .
+    container_name: crypto_pipeline
+    env_file:
+      - .env
+
+
+
+
+
+
